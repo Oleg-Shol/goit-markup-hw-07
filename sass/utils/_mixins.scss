@@ -9,4 +9,12 @@
     'box-shadow': box-shadow $duration $cubic,
   );
 
+  @mixin generateIcons($iconList) {
+    @each $iconName in $iconList {
+      .icon-#{$iconName}::before {
+        background-image: url(../../Images/svg-icons/#{$iconName}.svg);
+        background-size: 70px 70px;
+      }
+    }
+  }
   

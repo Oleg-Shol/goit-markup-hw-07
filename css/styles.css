@@ -262,29 +262,29 @@
 
 
 /* features */
-.features {
+/* .features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .features .list {
   display: flex;
-}
+} */
 
-.list-features {
+/* .list-features {
   width: 270px;
 }
 .list-features::before {
   content: '';
   display: block;
   margin-bottom: 30px;
-  height: 120px;
+  height: 120px;я
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
-}
+} */
 
-.icon-antena::before {
+/* .icon-antena::before {
   background-image: url(../Images/svg-icons/antena.svg);
   background-size: 70px 70px;
 }
@@ -299,7 +299,7 @@
 .icon-astronaut::before {
   background-image: url(../Images/svg-icons/astronaut.svg);
   background-size: 70px 70px;
-}
+} */
 
 /* Миксин для картинок */
 /* @icons: "antena", "clock", "diagram", "astronaut";
@@ -318,7 +318,7 @@
 
 
 
-.features h3 {
+/* .features h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -331,10 +331,10 @@
 }
 .features p {
   margin: 0px;
-}
+} */
 
 /* <!-- What we do --> */
-.section-title {
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -368,10 +368,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* team */
-.team {
+/* .team {
   background-color: var(--bg-light-color);
 }
 .team h3 {
@@ -407,10 +407,10 @@
   display: flex;
 
   align-items: flex-start;
-}
+} */
 
 /* team-social-pictures */
-.team .social-list {
+/* .team .social-list {
   margin: 0px 32px 30px 32px;
 }
 
@@ -434,7 +434,7 @@
 .team .button:focus {
   background-color: #2196f3;
   fill: #ffffff;
-}
+} */
 
 /* clients */
 
