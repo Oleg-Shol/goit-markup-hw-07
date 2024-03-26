@@ -474,7 +474,7 @@
 
 /* Second page */
 /* Porfolio html */
-
+/* 
 .portfolio-filter {
   margin-bottom: 50px;
 }
@@ -504,14 +504,14 @@
 .portfolio-filter .button:focus {
   background-color: #2196f3;
   color: #ffffff;
-}
+} */
 
-.portfolio-filter li:not(:first-child) {
+/* .portfolio-filter li:not(:first-child) {
   margin-left: 8px;
-}
+} */
 
 /* project */
-.project h3 {
+/* .project h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -530,8 +530,8 @@
 .project .list {
   display: flex;
   flex-wrap: wrap;
-}
-.project li {
+} */
+/* .project li {
   border: 1px solid rgb(238, 238, 238);
   width: calc((100% - 60px) / 3);
 }
@@ -542,7 +542,7 @@
 
 .project li:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
+} */
 
 .projects-wrapping {
   border: 1px solid rgb(238, 238, 238);
