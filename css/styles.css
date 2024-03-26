@@ -438,7 +438,7 @@
 
 /* clients */
 
-.clients-box {
+/* .clients-box {
   border: 1px solid rgb(175, 177, 184);
   border-radius: 4px;
   width: 170px;
@@ -456,9 +456,9 @@
 .clients-box:focus {
   fill: #2196f3;
   border-color: #2196f3;
-}
+} */
 
-.clients .li-item:not(:last-child) {
+/* .clients .li-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -470,7 +470,7 @@
 .clients .list {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* Second page */
 /* Porfolio html */
