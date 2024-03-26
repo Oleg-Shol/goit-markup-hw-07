@@ -1,6 +1,6 @@
 /* Index html */
 /* hero */
-.hero {
+/* .hero {
   background-color: #c4c4c4;
 
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -16,9 +16,9 @@
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.hero h1 {
+/* .hero h1 {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -31,10 +31,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-}
+} */
 
 /* button */
-.hero .button {
+/* .hero .button {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
@@ -50,16 +50,16 @@
   letter-spacing: 0.06em;
   text-align: center;
   min-width: 216px;
-}
+} */
 
 /* modal-window */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(197, 40, 40, 0.753);
   opacity: 1;
   z-index: 99;
   transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,9 +72,9 @@
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.1);
-}
+} */
 
-.modal {
+/* .modal {
   position: relative;
   width: 528px;
   height: 600px;
@@ -116,9 +116,9 @@
 .close-button:hover .close-x,
 .close-button:focus .close-x {
   fill: #2196f3;
-}
+} */
 
-.backdrop .modal-text {
+/* .backdrop .modal-text {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -129,21 +129,21 @@
   margin: 0;
   margin-top: 2px;
   margin-bottom: 2px;
-}
+} */
 
-.label-text {
+/* .label-text {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0.01em;
-}
+} */
 
 .input-position {
   position: relative;
-  /* margin-bottom: 10px; */
+  
 }
 
-.input-box {
+/* .input-box {
   width: 448px;
   height: 48px;
   padding-left: 42.5px;
@@ -170,9 +170,9 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
-.txtarea {
+/* .txtarea {
   width: 448px;
   height: 120px;
   resize: none;
@@ -184,9 +184,9 @@
   margin-bottom: 20px;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.label-text .txtarea:focus {
+/* .label-text .txtarea:focus {
   border-color: #2196f3;
 }
 
@@ -236,10 +236,7 @@
   border-radius: 2px;
   margin-right: 9px;
 
-  /* transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  
   
 }
 
@@ -256,13 +253,11 @@
   background-repeat: no-repeat;
 
 
-  /* transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+ 
 }
 .hyperlink {
   margin-left: 5px;
-}
+} */
 
 
 
@@ -305,6 +300,23 @@
   background-image: url(../Images/svg-icons/astronaut.svg);
   background-size: 70px 70px;
 }
+
+/* Миксин для картинок */
+/* @icons: "antena", "clock", "diagram", "astronaut";
+
+@mixin generateIcons($iconList) {
+  @each $iconName in iconList {
+    .icon-#{iconName} {
+      background-image: url("../Images/#{$iconName}.svg");
+    }
+  }
+}
+
+@include generateIcons($icons); */
+
+
+
+
 
 .features h3 {
   font-weight: 700;
