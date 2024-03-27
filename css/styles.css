@@ -544,7 +544,7 @@
   margin-bottom: 30px;
 } */
 
-.projects-wrapping {
+/* .projects-wrapping {
   border: 1px solid rgb(238, 238, 238);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -557,7 +557,7 @@
 .overlay-wrapping {
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* .overlay-box {
   position: absolute;
@@ -571,7 +571,7 @@
   background-color: rgba(33, 150, 243, 0.9);
 } */
 
-.overlay-box {
+/* .overlay-box {
   display: flex;
   position: absolute;
   top: 0;
@@ -596,7 +596,7 @@
 }
 
 .project .link:hover .overlay-box {
-  transform: translateY(0);
+  transform: translateY(0); */
 
   /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
+/* } */
