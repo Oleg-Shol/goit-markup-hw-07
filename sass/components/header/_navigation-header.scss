@@ -16,7 +16,7 @@
     }
 
     &.current {
-      color: var(--active-color);
+      color: $hover-color;
       position: relative;
 
       &::after {

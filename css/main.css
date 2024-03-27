@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2196f3;
 }
 .menu-nav .link.current {
-  color: var(--active-color);
+  color: #2196f3;
   position: relative;
 }
 .menu-nav .link.current::after {
